@@ -1,4 +1,3 @@
-// src/components/SearchField.js
 import React from "react";
 import "./SearchField.css";
 
