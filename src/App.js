@@ -15,7 +15,7 @@ const App = () => {
       try {
         if (searchTerm.trim() !== "") {
           const response = await axios.get(
-            ` https://www.omdbapi.com/?i=tt3896198&apikey=${process.env.REACT_APP_API_KEY}&s=${searchTerm}`
+            `//www.omdbapi.com/?i=tt3896198&apikey=${process.env.REACT_APP_API_KEY}&s=${searchTerm}`
           );
           if (response.data.Search) {
             setMovies(response.data.Search);
